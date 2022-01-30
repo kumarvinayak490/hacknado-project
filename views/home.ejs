@@ -1,0 +1,31 @@
+
+<%- include('./includes/base', {title:'Donate Smiles'}) %>
+<link rel="stylesheet" href="/static/css/home.css">
+<script  src="/static/javascript/home-page-functionality.js" defer></script>
+</head>
+<body>
+    <header>
+
+        <%-include('./includes/nav')%>
+
+        <%-include('./includes/side-bar')%>
+
+       <div class="hero-content">
+
+        <h1>Say Cheeeessseee !!</h1>
+        <h2>We will ensure that your kindness reaches to the right soul</h2>
+
+        <div class="hero-btn">
+            <a class="btn" href="/make-donation"> Get Started  <span> <i class="fas fa-arrow-right"></i></span></a>
+        </div>
+        
+       </div>
+        
+    </header>
+
+    <%-include('./includes/how-it-works')%>
+    <%-include('./includes/what-you-can-donate')%>
+
+    <%-include('./includes/footer')%>
+</body>
+</html>
